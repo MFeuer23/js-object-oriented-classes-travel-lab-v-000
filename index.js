@@ -26,4 +26,7 @@ class Route {
     return vert + horiz;
   }
   
-  estimatedTime()
+  estimatedTime() {
+    
+  }
+}
