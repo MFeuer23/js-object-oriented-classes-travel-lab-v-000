@@ -19,6 +19,10 @@ class Route {
   }
   
   blocksTravelled() {
-    return Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical)
+    return 
+    
+    let vert = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical)
+    
+    let horiz = 
   }
 }
