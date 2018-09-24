@@ -26,7 +26,11 @@ class Route {
     return vert + horiz;
   }
   
-  estimatedTime() {
-    return this.blocksTravelled() * (1/3)
+  estimatedTime(peak) {
+    if (peak) {
+      return this.blocksTravelled() * (1/3)
+    } else {
+      return this.blocksTravelled() * (1/3)
+    }
   }
 }
