@@ -23,6 +23,6 @@ class Route {
     
     let vert = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical)
     
-    let horiz = 
+    let horiz = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal))
   }
 }
