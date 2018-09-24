@@ -19,6 +19,6 @@ class Route {
   }
   
   blocksTravelled() {
-    return beginningLocation.horizontal - endingLocation.horizontal
+    return this.beginningLocation.horizontal - this.endingLocation.horizontal
   }
 }
